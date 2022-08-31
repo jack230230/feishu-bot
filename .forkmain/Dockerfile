@@ -8,4 +8,4 @@ RUN pip3 install -r requirements.txt
 
 EXPOSE 5000
 
-CMD ["sh", "-c", "FLASK_APP=server.py flask run"]
+CMD ["sh", "-c", "FLASK_APP=server.py flask run --host=0.0.0.0"]
